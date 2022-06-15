@@ -2,14 +2,166 @@ body {
     margin: 0;
 }
 
-.header {
-   background-color: rgb(14, 238, 238); 
-   margin: 0;
-   padding: 8px 16px;
-   display: flex;
-   align-items: center;
+.container1 {
+    background-color: #1F2937; 
+    color: white;
+    margin: 0;
+    padding: 20px 100px;
 }
 
-.header.links1 {
-    justify-content: flex-end;
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
+
+.links-list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 100px;
+}
+
+.links-list a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.links-list a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+.body1 {
+    min-height: 300px;
+}
+
+.body1 .item {
+    width: 50%;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background: #3882F6;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tree img{
+    padding: 0px 100px;
+    float: right;
+    max-width: 500px;
+    width: 100%;
+    height:250px;
+}
+
+.item1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-bottom: -40px;
+    font-weight: bolder;
+}
+
+.header .item {
+    font-size: 24px;
+    color: f9faf8;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.c2-items {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.c2-items img
+ {
+    width:150px;
+    height:150px;
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+}
+
+.sub {
+    width:150px;
+    height:150px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    display: flex;
+    padding: 80px;
+    flex-direction: column;
+    padding: 50px 300px ;
+}
+
+.quote {
+    font-style: oblique;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.author {
+    justify-content: flex-end;
+    font-weight: bold;
+    padding-left: 500px;
+}
+
+.content {
+    background-color: #3882F6;
+    color: white;
+    margin: 80px 160px;
+    padding: 20px;
+    border-radius: 8px;
+    align-content: center;
+}
+
+.connect {
+    align-items: center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 52px;
+    border: 2px solid rgb(63, 62, 62);
+}
+.call,
+.join {
+    margin-left: 52px;
+}
+.call {
+    font-size: 20px;
+}
+
+.join {
+    margin-top: -12px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 32px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(0, 38, 255);
+    transition: 0.3s;
+}
+
+
+
+
