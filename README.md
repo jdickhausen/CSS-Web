@@ -1,6 +1,6 @@
 # CSS-Web
 This is the first website I ahve created using
-HTML and CSS. It using external CSS and nearly all
+HTML and CSS. I create this using external CSS and 
 elements of both CSS and HTML that I have learned until 
 now doing The Odin Project.
 
